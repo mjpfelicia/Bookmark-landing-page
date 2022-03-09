@@ -15,7 +15,7 @@ btn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
     const btnIcon = document.querySelector(".icon-x")
-    let menu = document.querySelector("#menu-nav");
+    let menu = document.querySelector(".conteudo-nav");
 
     if (menu.style.display === "block") {
         menu.style.display = "none";
