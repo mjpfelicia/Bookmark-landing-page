@@ -138,10 +138,6 @@ body {
     margin-right: auto;
 }
 
-.logo-header * {
-    transition: all .5s;
-}
-
 .btn-header {
     position: relative;
     z-index: 10;
