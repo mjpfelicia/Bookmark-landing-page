@@ -300,6 +300,7 @@ body {
     margin: 0 auto;
     max-width: 64rem;
     text-align: center;
+    padding-top: 3rem;
 }
 
 .titulo-features {
