@@ -23,7 +23,7 @@ body {
     position: relative;
     overflow-x: hidden;
     font-family: 'Rubik';
-    font-size: 2.25rem;
+    font-size: 2.3rem;
 }
 
 .menu-btn {
@@ -39,10 +39,10 @@ body {
 
 .menu-btn__bar {
     display: inline-block;
-    width: 2.25rem;
+    width: 2.3rem;
     height: 3px;
     background-color: black;
-    transition: all .5s;
+    transition: .5s;
 }
 
 .btn {
@@ -50,13 +50,13 @@ body {
     border: 2px solid;
     border-radius: 5px;
     padding: 1rem 2rem;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.25px;
     line-height: 3.5rem;
     cursor: pointer;
     overflow: hidden;
-    transition: all .3s, outline 0s;
+    transition: .3s;
 }
 
 .btn-blue {
@@ -103,7 +103,7 @@ body {
 }
 
 .title--primary {
-    font-size: 3.75rem;
+    font-size: 3.8rem;
     letter-spacing: -0.15px;
     line-height: 5rem;
 }
@@ -115,7 +115,7 @@ body {
 
 .paragraph {
     color: var(--color-greyish-blue);
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     line-height: 3.5rem;
 }
 
@@ -154,7 +154,7 @@ body {
     padding: 21rem 0;
     padding-bottom: 6rem;
     background-color: rgba(37, 43, 70, 0.95);
-    transition: 3s, opacity 1s;
+    transition: 3s;
 }
 
 .conteudo-nav__list {
@@ -408,8 +408,8 @@ body {
 }
 
 .download-tex {
-    max-width: 67.5rem;
-    margin-bottom: 6rem;
+    max-width: 68rem;
+    margin-bottom: 8rem;
 }
 
 .content-download {
@@ -429,7 +429,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 35rem;
-    height: 46.25rem;
+    height: 47rem;
     border-radius: 15px;
     box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
     padding: 3rem;
@@ -454,7 +454,7 @@ body {
     margin-bottom: 3rem;
     border-bottom: 4px dotted rgba(73, 93, 207, 0.20012);
     padding-bottom: 4rem;
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     opacity: .5;
 }
 
@@ -488,7 +488,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 6.75rem;
+    margin-bottom: 7rem;
 }
 
 .what {
@@ -505,7 +505,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     font-weight: normal;
     line-height: 3rem;
     cursor: pointer;
@@ -567,7 +567,7 @@ body {
 
 .subtitle-joined {
     margin-bottom: 3rem;
-    font-size: 1.625rem;
+    font-size: 1.7rem;
     letter-spacing: 5px;
 }
 
@@ -597,28 +597,28 @@ body {
 
 .joined-input::-webkit-input-placeholder {
     color: rgba(36, 42, 69, 0.250109);
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     letter-spacing: 0.25px;
     line-height: 4rem;
 }
 
 .joined-input:-ms-input-placeholder {
     color: rgba(36, 42, 69, 0.250109);
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     letter-spacing: 0.25px;
     line-height: 4rem;
 }
 
 .joined-input::-ms-input-placeholder {
     color: rgba(36, 42, 69, 0.250109);
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     letter-spacing: 0.25px;
     line-height: 4rem;
 }
 
 .joined-input::placeholder {
     color: rgba(36, 42, 69, 0.250109);
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     letter-spacing: 0.25px;
     line-height: 4rem;
 }
@@ -665,9 +665,9 @@ body {
 
 .link-footer {
     color: white;
-    font-size: 1.625rem;
+    font-size: 1.7rem;
     letter-spacing: 1.5px;
-    line-height: 2.125rem;
+    line-height: 2.2rem;
     text-decoration: none;
     transition: color .3s;
 }
@@ -733,7 +733,7 @@ body {
     }
     .conteudo-nav-link {
         color: var(--color-very-dark-blue);
-        font-size: 1.625rem;
+        font-size: 1.7rem;
         transition: color .3s;
     }
     .conteudo-nav-link:hover {
@@ -747,7 +747,7 @@ body {
         padding: 0;
         background-color: var(--color-soft-red);
         color: white;
-        padding: 1.25rem 4rem;
+        padding: 1.30rem 4rem;
         transition: color .3s, background-color .3s;
     }
     .conteudo-nav-link--login:hover {
@@ -802,7 +802,6 @@ body {
         height: 50rem;
     }
     .content-feature-img {
-        -ms-flex: 0 1 50%;
         flex: 0 1 50%;
         display: flex;
         justify-content: flex-end;
@@ -830,7 +829,7 @@ body {
         align-self: start;
     }
     .features::before {
-        top: 60.25rem;
+        top: 60.30rem;
         right: 55.5vw;
         width: 200rem;
         height: 44rem;
@@ -849,7 +848,7 @@ body {
     .tabs {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 91.25rem;
+        max-width: 91.30rem;
         margin: 0 auto;
         margin-bottom: 9rem;
     }
@@ -885,10 +884,10 @@ body {
         line-height: 4rem;
     }
     .paragraph {
-        font-size: 2.25rem;
+        font-size: 2.30rem;
     }
     .joined {
-        padding: 7.25rem 6rem;
+        padding: 7.30rem 6rem;
         padding-bottom: 8.5rem;
     }
     .box-input-joined {
@@ -913,13 +912,13 @@ body {
         letter-spacing: -0.1px;
     }
     .btn {
-        padding: 1.25rem 3rem;
+        padding: 1.30rem 3rem;
     }
     .footer {
         padding: 4rem 6rem;
     }
     .logo-footer {
-        margin-right: 7.875rem;
+        margin-right: 7.9rem;
         margin-bottom: 0;
     }
     .conteudo-nav-li {
